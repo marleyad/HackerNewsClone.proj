@@ -31,7 +31,7 @@ function navFavoritesClick(e) {
   putFavoritesListOnPage()
 }
 
-
+$navFavorite.on("click", navFavoritesClick)
 
 /** Show login/signup on click on "login" */
 
